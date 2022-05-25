@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-02T14:39:13 IST" name="Web Service: Functional Tests" finished-at="2022-05-02T14:39:18 IST" duration-ms="4588">
+    <groups>
+    </groups>
+    <test started-at="2022-05-02T14:39:13 IST" name="Cocktail WebService Tests" finished-at="2022-05-02T14:39:18 IST" duration-ms="4588">
+      <class name="com.cocktail.api.searchIngredientByNameTest">
+        <test-method signature="searchByIngredientName_UppercaseName()[pri:0, instance:com.cocktail.api.searchIngredientByNameTest@128d2484]" started-at="2022-05-02T14:39:13 IST" name="searchByIngredientName_UppercaseName" description="Search by valid uppercase ingredient name returns ingredient" finished-at="2022-05-02T14:39:16 IST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByIngredientName_UppercaseName -->
+        <test-method signature="searchByIngredientName_LowercaseName()[pri:1, instance:com.cocktail.api.searchIngredientByNameTest@128d2484]" started-at="2022-05-02T14:39:16 IST" name="searchByIngredientName_LowercaseName" description="Search by valid lowercase ingredient name returns ingredient" finished-at="2022-05-02T14:39:16 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByIngredientName_LowercaseName -->
+        <test-method signature="searchByIngredientName_Alcoholic()[pri:2, instance:com.cocktail.api.searchIngredientByNameTest@128d2484]" started-at="2022-05-02T14:39:16 IST" name="searchByIngredientName_Alcoholic" description="Search by valid alcoholic ingredient name returns alcoholic properties" finished-at="2022-05-02T14:39:16 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByIngredientName_Alcoholic -->
+        <test-method signature="searchByIngredientName_NonAlcoholic()[pri:3, instance:com.cocktail.api.searchIngredientByNameTest@128d2484]" started-at="2022-05-02T14:39:16 IST" name="searchByIngredientName_NonAlcoholic" description="Search by valid non-alcoholic ingredient name returns non-alcoholic properties" finished-at="2022-05-02T14:39:16 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByIngredientName_NonAlcoholic -->
+        <test-method signature="searchByIngredientName_NotFound()[pri:5, instance:com.cocktail.api.searchIngredientByNameTest@128d2484]" started-at="2022-05-02T14:39:16 IST" name="searchByIngredientName_NotFound" description="Search by valid non-alcoholic ingredient name returns non-alcoholic properties" finished-at="2022-05-02T14:39:16 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByIngredientName_NotFound -->
+      </class> <!-- com.cocktail.api.searchIngredientByNameTest -->
+      <class name="com.cocktail.api.searchCocktailByNameTest">
+        <test-method signature="searchByCocktailName_UppercaseName()[pri:0, instance:com.cocktail.api.searchCocktailByNameTest@5e0e82ae]" started-at="2022-05-02T14:39:16 IST" name="searchByCocktailName_UppercaseName" description="Search by valid uppercase cocktail name returns cocktails" finished-at="2022-05-02T14:39:17 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCocktailName_UppercaseName -->
+        <test-method signature="searchByCocktailName_LowercaseName()[pri:1, instance:com.cocktail.api.searchCocktailByNameTest@5e0e82ae]" started-at="2022-05-02T14:39:17 IST" name="searchByCocktailName_LowercaseName" description="Search by valid lowercase cocktail name returns cocktails" finished-at="2022-05-02T14:39:17 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCocktailName_LowercaseName -->
+        <test-method signature="searchByCocktailName_CocktailNotFound()[pri:2, instance:com.cocktail.api.searchCocktailByNameTest@5e0e82ae]" started-at="2022-05-02T14:39:17 IST" name="searchByCocktailName_CocktailNotFound" description="Search by invalid cocktail name returns null drinks property" finished-at="2022-05-02T14:39:17 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCocktailName_CocktailNotFound -->
+        <test-method signature="searchByCocktailName_SchemaValidation()[pri:3, instance:com.cocktail.api.searchCocktailByNameTest@5e0e82ae]" started-at="2022-05-02T14:39:17 IST" name="searchByCocktailName_SchemaValidation" description="Search by cocktail name returns valid payload schema" finished-at="2022-05-02T14:39:18 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByCocktailName_SchemaValidation -->
+      </class> <!-- com.cocktail.api.searchCocktailByNameTest -->
+    </test> <!-- Cocktail WebService Tests -->
+  </suite> <!-- Web Service: Functional Tests -->
+</testng-results>

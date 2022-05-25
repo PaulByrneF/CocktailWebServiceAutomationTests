@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema",
+  "type": "object",
+  "required": [
+    "drinks"
+  ],
+  "properties": {
+    "drinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "strDrink",
+          "strTags",
+          "strCategory",
+          "strAlcoholic",
+          "strGlass",
+          "strInstructions",
+          "strMeasure1",
+          "strCreativeCommonsConfirmed",
+          "dateModified",
+          "strIngredient1"
+        ],
+        "properties": {
+          "idDrink": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strDrink": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strDrinkAlternate": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strTags": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strVideo": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strCategory": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIBA": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strAlcoholic": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strGlass": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructions": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructionsES": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructionsDE": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructionsFR": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructionsIT": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructionsZH-HANS": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strInstructionsZH-HANT": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strDrinkThumb": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient1": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient2": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient3": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient4": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient5": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient6": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient7": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient8": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient9": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient10": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient11": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient12": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient13": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient14": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strIngredient15": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure1": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure2": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure3": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure4": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure5": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure6": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure7": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure8": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure9": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure10": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure11": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure12": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure13": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure14": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strMeasure15": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strImageSource": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strImageAttribution": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "strCreativeCommonsConfirmed": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          },
+          "dateModified": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "default": null
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Web Service: Functional Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Cocktail WebService Tests(failed)">
+    <classes>
+      <class name="com.cocktail.api.searchCocktailByNameTest">
+        <methods>
+          <include name="searchByCocktailName_SchemaValidation"/>
+        </methods>
+      </class> <!-- com.cocktail.api.searchCocktailByNameTest -->
+    </classes>
+  </test> <!-- Cocktail WebService Tests(failed) -->
+</suite> <!-- Failed suite [Web Service: Functional Tests] -->
